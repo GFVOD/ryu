@@ -1,0 +1,6 @@
+UtsRelease 2.6.39-400.17.1.el5uek
+UtsMachine x86_64
+ModVersion yes
+SMP yes
+PageOffset FFFF810000000000
+Comment 2.6.39-400.17.1.el5uek Oracle 5.9

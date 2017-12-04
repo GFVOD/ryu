@@ -1,0 +1,6 @@
+UtsRelease 3.2.0-23-generic-pae
+UtsMachine i386
+ModVersion yes
+SMP yes
+PageOffset C1000000
+Comment 3.2.0-23-generic-pae Ubuntu 12.04

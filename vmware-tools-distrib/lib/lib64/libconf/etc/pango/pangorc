@@ -1,0 +1,5 @@
+[Pango]
+ModuleFiles = @@LIBCONF_DIR@@/etc/pango/pango.modules
+
+[PangoX]
+AliasFiles = @@LIBCONF_DIR@@/etc/pango/pango/pangox.aliases

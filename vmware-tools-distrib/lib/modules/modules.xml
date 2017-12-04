@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<modules>
+  <module name="vmci" required="false" key="VMCI_CONFED" description="Virtual Machine Communication Interface"/>
+  <module name="vmblock" required="false" key="VMBLOCK_CONFED" description="VMware Blocking Filesystem">
+    <restrictions>
+      <maxkernelversion>2.9.99</maxkernelversion>
+    </restrictions>
+  </module>
+  <module name="vsock" required="false" key="VSOCK_CONFED" description="VMCI Sockets">
+    <dependencies>
+      <dependency name="vmci"/>
+    </dependencies>
+  </module>
+  <module name="vmhgfs" required="false" key="VMHGFS_CONFED" description="Shared Folder Support">
+    <dependencies>
+      <dependency name="vmci"/>
+    </dependencies>
+  </module>
+  <module name="vmxnet" required="false" key="VMXNET_CONFED" description="Virtual Network Device"/>
+  <module name="vmxnet3" required="false" key="VMXNET3_CONFED" description="Advanced Virtual Network Device"/>
+  <module name="vmmemctl" required="false" key="VMMEMCTL_CONFED" description="Memory Manager Driver"/>
+  <module name="vmsync" required="false" key="VMSYNC_CONFED" description="Filesystem Sync Driver"/>
+  <module name="pvscsi" required="false" key="PVSCSI_CONFED" description="VMware Paravirtual SCSI driver"/>
+</modules>

@@ -1,0 +1,70 @@
+##############################################################
+# Copyright (c) 2011-2015 VMware, Inc.  All rights reserved.
+##############################################################
+#
+# English translation catalog.
+#
+# Please follow a few guidelines when editing this file:
+#   . Try to maintain formatting (e.g., indentation and line breaks).
+#   . Avoid long lines by breaking them into multiple lines.
+#   . Catalogs *must* be in UTF-8.
+#   . Try to keep the file sorted by message id.
+#
+
+addsubj.fail = "%1$s: Das Hinzufügen des Alias für den Benutzer '%2$s': %3$s ist fehlgeschlagen.\n"
+addsubj.success = "%1$s: Alias hinzugefügt\n"
+
+addoptions.comment = "Inhaberkommentar"
+
+addoptions.file = "PEM-Dateiname"
+
+addoptions.global = "Zertifikat der globalen Zuordnungsdatei hinzufügen"
+
+addoptions.subject = "Der SAML-Inhaber"
+
+addoptions.username = "Benutzer, dessen Zertifikatsspeicher hinzugefügt wird zu"
+
+addoptions.verbose = "Detaillierter Vorgang"
+
+
+cmdline.parse = "Die Analyse der Befehlszeile ist fehlgeschlagen"
+
+cmdline.summary.pemfile = "PEM-Datei"
+cmdline.summary.subject = "Inhaber"
+cmdline.summary.username = "Benutzername"
+cmdline.summary.comm = "Kommentar"
+
+list.comment = "Kommentar"
+list.count = "%1$s: Es wurden %2$d Aliase für den Benutzer '%3$s' gefunden.\n"
+
+list.error = "%1$s: Die Auflistung der Aliase für den Benutzer '%2$s': %3$s ist fehlgeschlagen.\n"
+list.subject = "Inhaber"
+
+listmapped.count = "%1$s: Es wurden %2$d zugeordnete Aliase gefunden.\n"
+
+listmapped.error = "%1$s: Die Auflistung der zugeordneten Aliase %2$s ist fehlgeschlagen.\n"
+
+listmapped.subject = "Inhaber"
+
+listmapped.username = "Benutzername"
+
+listoptions.username = "Benutzer, dessen Zertifikatsspeicher abgefragt wird"
+
+listoptions.verbose = "Detaillierter Vorgang"
+
+loadfile.fail = "%1$s: PEM-Datei '%2$s' kann nicht gelesen werden\n"
+
+name.any = "<ALLE>"
+
+removesubj.fail = "%1$s: Das Entfernen des Alias für den Benutzer '%2$s': %3$s ist fehlgeschlagen.\n"
+
+removesubj.success = "%1$s: Alias entfernt\n"
+
+removeoptions.file = "PEM-Dateiname"
+
+removeoptions.subject = "Der SAML-Inhaber"
+removeoptions.username = "Benutzer, dessen Zertifikatsspeicher entfernt wurde aus"
+
+removeoptions.verbose = "Detaillierter Vorgang"
+
+vgauth.init.failed = "Die Initialisierung von VGAuth ist fehlgeschlagen"

@@ -1,0 +1,7 @@
+UtsRelease 2.6.27.19-5-vmi
+UtsVersion #1 Sat Feb 28 07:23:23 UTC 2009
+UtsMachine i386
+ModVersion yes
+SMP yes
+PageOffset C0000000
+Comment SLES11/SLED11, 2.6.27.19-5, i586, vmi

@@ -1,0 +1,7 @@
+UtsRelease 2.6.28-11-server
+UtsVersion #1 SMP Fri Apr 17 03:43:47 UTC 2009
+UtsMachine i386
+ModVersion yes
+SMP yes
+PageOffset C0000000
+Comment Ubuntu9.04, 2.6.28-11, i386, server

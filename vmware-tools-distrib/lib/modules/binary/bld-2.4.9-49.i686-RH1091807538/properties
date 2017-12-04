@@ -1,0 +1,6 @@
+UtsRelease 2.4.9-e.49
+ModVersion yes
+SMP no
+PageOffset C0000000
+Comment Red Hat EL 2.1 update 5 (i386)
+UtsMachine i386

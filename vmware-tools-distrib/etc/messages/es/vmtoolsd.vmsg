@@ -1,0 +1,59 @@
+##############################################################
+# Copyright (c) 2010-2015 VMware, Inc.  All rights reserved.
+##############################################################
+#
+# English translation catalog.
+#
+# Please follow a few guidelines when editing this file:
+#   . Try to maintain formatting (e.g., indentation and line breaks).
+#   . Avoid long lines by breaking them into multiple lines.
+#   . Catalogs *must* be in UTF-8.
+#   . Try to keep the file sorted by message id.
+#
+
+cmdline.background = "Se ejecuta en segundo plano y crea un archivo pid."
+
+cmdline.background.pidfile = "archivo pid"
+
+cmdline.blockfd = "Descriptor del archivo para el sistema de archivos de bloqueo de VMware."
+
+cmdline.blockfd.fd = "descriptor del archivo"
+
+cmdline.commonpath = "Ruta al directorio de complementos frecuentes."
+
+cmdline.config = "Utiliza el archivo de configuración en la ruta dada."
+
+cmdline.debug = "Se ejecuta en modo debug, utilizando el complemento dado."
+
+cmdline.displayname = "Nombre para mostrar del servicio (solo se usa con -i)."
+
+cmdline.displayname.argument = "nombre"
+
+cmdline.install = "Instala el servicio con el Administrador de control de servicios."
+
+cmdline.install.args = "argumentos"
+
+cmdline.kill = "Detiene una instancia en ejecución de un servicio de herramientas."
+
+cmdline.log = "Se ignora, se conserva para compatibilidad con versiones anteriores."
+
+cmdline.name = "Nombre del servicio que se está iniciando."
+
+cmdline.name.argument = "nombre de servicio"
+
+cmdline.path = "ruta"
+
+cmdline.pluginpath = "Ruta al directorio de complementos."
+
+cmdline.rpc = "Envía un comando RPC al host y sale."
+
+cmdline.rpc.command = "comando"
+
+cmdline.rpcerror = "No se puede enviar el comando al hipervisor de VMware."
+
+cmdline.state = "Vuelca el estado interno de una instancia de servicio en ejecución en los registros."
+
+cmdline.uninstall = "Desinstala el servicio desde el Administrador de control de servicios."
+
+cmdline.version = "Imprime la versión daemon y sale."
+

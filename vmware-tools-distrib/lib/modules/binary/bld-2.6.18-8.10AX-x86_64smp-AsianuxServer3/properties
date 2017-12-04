@@ -1,0 +1,6 @@
+UtsRelease 2.6.18-8.10AX
+UtsMachine x86_64
+ModVersion yes
+SMP yes
+PageOffset FFFF810000000000
+Comment AsianuxServer3, 2.6.18-8.10AX, amd64, smp

@@ -1,0 +1,6 @@
+UtsRelease 3.2.0-29-generic
+UtsMachine x86_64
+ModVersion yes
+SMP yes
+PageOffset FFFF810000000000
+Comment 3.2.0-29-generic Ubuntu 12.04.1

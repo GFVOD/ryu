@@ -1,0 +1,19 @@
+##############################################################
+# Copyright (c) 2010-2015 VMware, Inc.  All rights reserved.
+##############################################################
+#
+# English translation catalog.
+#
+# Please follow a few guidelines when editing this file:
+#   . Try to maintain formatting (e.g., indentation and line breaks).
+#   . Avoid long lines by breaking them into multiple lines.
+#   . Catalogs *must* be in UTF-8.
+#   . Try to keep the file sorted by message id.
+#
+
+redirect.logout.message = "VMware Tools ha modificado algunos parámetros para permitir compartir datos con el host. Estas modificaciones requieren que cierre su sesión ahora mismo. Presione Aceptar para cerrar la sesión. Presione"
+
+redirect.logout.title = "VMware Tools"
+
+sharedfolders.name = "Carpetas compartidas de VMware"
+

@@ -1,0 +1,19 @@
+##############################################################
+# Copyright (c) 2010-2015 VMware, Inc.  All rights reserved.
+##############################################################
+#
+# English translation catalog.
+#
+# Please follow a few guidelines when editing this file:
+#   . Try to maintain formatting (e.g., indentation and line breaks).
+#   . Avoid long lines by breaking them into multiple lines.
+#   . Catalogs *must* be in UTF-8.
+#   . Try to keep the file sorted by message id.
+#
+
+redirect.logout.message = "VMware Tools ha modificato le impostazioni per abilitare la condivisione dei dati con l'host. Perché le modifiche siano effettive, è necessario chiudere la sessione. Premere OK per eseguire il logout. Premere Annulla per eseguire il logout in seguito."
+
+redirect.logout.title = "VMware Tools"
+
+sharedfolders.name = "Cartelle condivise VMware"
+

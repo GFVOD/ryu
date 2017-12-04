@@ -1,0 +1,7 @@
+UtsRelease 2.6.5-7.308-default
+ModVersion yes
+SMP no
+PageOffset 0000010000000000
+Comment SuSE SLES9 SP4, 2.6.5-7.308, x86_64, default
+
+UtsMachine x86_64

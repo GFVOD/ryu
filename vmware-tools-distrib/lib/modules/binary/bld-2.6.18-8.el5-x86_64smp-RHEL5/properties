@@ -1,0 +1,6 @@
+UtsRelease 2.6.18-8.el5
+UtsMachine x86_64
+ModVersion yes
+SMP yes
+PageOffset FFFF810000000000
+Comment RHEL5, 2.6.18-8.el5, amd64, smp

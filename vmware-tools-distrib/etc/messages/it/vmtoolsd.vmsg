@@ -1,0 +1,59 @@
+##############################################################
+# Copyright (c) 2010-2015 VMware, Inc.  All rights reserved.
+##############################################################
+#
+# English translation catalog.
+#
+# Please follow a few guidelines when editing this file:
+#   . Try to maintain formatting (e.g., indentation and line breaks).
+#   . Avoid long lines by breaking them into multiple lines.
+#   . Catalogs *must* be in UTF-8.
+#   . Try to keep the file sorted by message id.
+#
+
+cmdline.background = "Viene eseguito in background e crea un file pid."
+
+cmdline.background.pidfile = "file pid"
+
+cmdline.blockfd = "Descrittore file per il file system di blocco VMware."
+
+cmdline.blockfd.fd = "descrittore file"
+
+cmdline.commonpath = "Percorso della directory plugin comune."
+
+cmdline.config = "Utilizza il file di configurazione disponibile nel percorso specificato."
+
+cmdline.debug = "Viene eseguito in modalità debug, utilizzando il plugin specificato."
+
+cmdline.displayname = "Nome visualizzato del servizio (utilizzato solo con -i)."
+
+cmdline.displayname.argument = "nome"
+
+cmdline.install = "Installa il servizio in Gestione controllo servizi."
+
+cmdline.install.args = "argomenti"
+
+cmdline.kill = "Interrompe un'istanza in esecuzione di un servizio di Tools."
+
+cmdline.log = "Ignorato, mantenuto per la compatibilità con versioni precedenti."
+
+cmdline.name = "Nome del servizio che sta per essere avviato."
+
+cmdline.name.argument = "nome servizio"
+
+cmdline.path = "percorso"
+
+cmdline.pluginpath = "Percorso della directory plugin."
+
+cmdline.rpc = "Invia all'host un comando RPC ed esce."
+
+cmdline.rpc.command = "comando"
+
+cmdline.rpcerror = "Impossibile inviare il comando al supervisore VMware."
+
+cmdline.state = "Invia ai registri lo stato interno di un'istanza del servizio in esecuzione."
+
+cmdline.uninstall = "Disinstalla il servizio da Gestione controllo servizi."
+
+cmdline.version = "Stampa la versione daemon ed esce."
+

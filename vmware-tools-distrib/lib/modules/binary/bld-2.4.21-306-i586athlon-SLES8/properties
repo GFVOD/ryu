@@ -1,0 +1,8 @@
+UtsRelease 2.4.21-306-athlon
+UtsVersion #1 Fri Feb 10 14:17:44 UTC 2006
+ModVersion yes
+SMP no
+PageOffset C0000000
+Comment SLES8, 2.4.21-306, i586, athlon
+UtsMachine i386
+AthlonKernel required

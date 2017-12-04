@@ -1,0 +1,6 @@
+UtsRelease 2.4.21-4.EL
+ModVersion yes
+SMP yes
+PageOffset 0000010000000000
+Comment RedHat Enterprise Linux 3 update 4, 2.4.21-4.EL, ia32e
+UtsMachine x86_64

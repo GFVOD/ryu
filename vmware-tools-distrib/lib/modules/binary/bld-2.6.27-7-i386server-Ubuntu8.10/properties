@@ -1,0 +1,7 @@
+UtsRelease 2.6.27-7-server
+UtsVersion #1 SMP Fri Oct 24 08:47:11 UTC 2008
+UtsMachine i386
+ModVersion yes
+SMP yes
+PageOffset C0000000
+Comment Ubuntu8.10, 2.6.27-7, i386, server

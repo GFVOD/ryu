@@ -1,0 +1,7 @@
+UtsRelease 2.6.16.60-0.54.5-smp
+UtsVersion #1 Sat Sep  5 10:53:48 UTC 2009
+UtsMachine x86_64
+ModVersion yes
+SMP yes
+PageOffset FFFF810000000000
+Comment SLES10 SP3, 2.6.16.60-0.54.5, x86_64, smp 

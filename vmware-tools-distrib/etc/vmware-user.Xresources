@@ -1,0 +1,21 @@
+! The following cpp(1) magic is only applied when parsed by xrdb(1).  XDM(8),
+! on the other hand, uses the native libX11 Xresource code, which only
+! only understands #include, to parse xdm-config (and this #include-ed file).
+!
+! In other words, XDM will unconditionally apply the following.  However,
+! our autostart script''s second pass through xdm-config will use xrdb in
+! order to -not- use these values, falling back to the original session
+! values.
+
+#ifndef VMWARE_USER_AUTOSTART
+DisplayManager._0.session:	/etc/vmware-tools/xsession-xdm.sh
+DisplayManager._1.session:	/etc/vmware-tools/xsession-xdm.sh
+DisplayManager._2.session:	/etc/vmware-tools/xsession-xdm.sh
+DisplayManager._3.session:	/etc/vmware-tools/xsession-xdm.sh
+DisplayManager._4.session:	/etc/vmware-tools/xsession-xdm.sh
+DisplayManager._5.session:	/etc/vmware-tools/xsession-xdm.sh
+DisplayManager._6.session:	/etc/vmware-tools/xsession-xdm.sh
+DisplayManager._7.session:	/etc/vmware-tools/xsession-xdm.sh
+DisplayManager._8.session:	/etc/vmware-tools/xsession-xdm.sh
+DisplayManager._9.session:	/etc/vmware-tools/xsession-xdm.sh
+#endif

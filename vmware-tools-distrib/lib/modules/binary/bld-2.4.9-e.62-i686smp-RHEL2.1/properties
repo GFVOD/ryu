@@ -1,0 +1,6 @@
+UtsRelease 2.4.9-e.62smp
+ModVersion yes
+SMP yes
+PageOffset C0000000
+Comment Linux RedHat ES 2.1 U7
+UtsMachine i386

@@ -1,0 +1,6 @@
+UtsRelease 2.6.18-194.1.AXS3
+UtsMachine x86_64
+ModVersion yes
+SMP yes
+PageOffset FFFF810000000000
+Comment AXS3-SP3, 2.6.18-194.1.AXS3, x86_64, 

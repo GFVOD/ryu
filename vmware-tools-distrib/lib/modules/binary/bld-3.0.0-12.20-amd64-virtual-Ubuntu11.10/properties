@@ -1,0 +1,6 @@
+UtsRelease 3.0.0-12-virtual
+UtsMachine x86_64
+ModVersion yes
+SMP yes
+PageOffset FFFF810000000000
+Comment 3.0.0-12-virtual Ubuntu 11.10

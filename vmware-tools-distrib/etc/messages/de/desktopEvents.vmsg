@@ -1,0 +1,20 @@
+##############################################################
+# Copyright (c) 2010-2015 VMware, Inc.  All rights reserved.
+##############################################################
+#
+# English translation catalog.
+#
+# Please follow a few guidelines when editing this file:
+#   . Try to maintain formatting (e.g., indentation and line breaks).
+#   . Avoid long lines by breaking them into multiple lines.
+#   . Catalogs *must* be in UTF-8.
+#   . Try to keep the file sorted by message id.
+#
+
+displayDPI.logout.caption = "VMware Tools"
+
+displayDPI.logout.message = "VMware Tools verfügt über veränderte Größeneinstellungen für die Benutzeroberfläche. Für die Übernahme dieser Änderungen müssen Sie sich abmelden. Schließen Sie alle Anwendungen und klicken Sie auf 'OK', um sich jetzt abzumelden, oder klicken Sie auf 'Abbrechen', um sich später abzumelden."
+
+pmtimer.warning.caption = "Konfigurationsfehler des Gastbetriebssystems"
+
+pmtimer.warning.text = "Der VMware Tools-Dienst hat einen Fehler bei der Konfiguration des Betriebssystems dieser virtuellen Maschine erkannt. In der Datei 'Boot.ini' ist der Parameter „/usepmtimer“ boot angegeben. Dieser Parameter führt zu einer schwerwiegenden Beeinträchtigung der VM-Leistung bei bestimmten Arbeitslasten.\n\nEntfernen Sie den „usepmtimer“-Parameter aus der Datei 'Boot.ini' und starten Sie die VM neu, um die VM-Leistung zu verbessern.\n\nZusätzliche Details finden Sie im VMware Knowledgebase-Artikel KB 1011714."

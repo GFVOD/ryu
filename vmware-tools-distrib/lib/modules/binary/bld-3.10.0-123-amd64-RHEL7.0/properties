@@ -1,0 +1,6 @@
+UtsRelease 3.10.0-123.el7.x86_64
+UtsMachine x86_64
+ModVersion yes
+SMP yes
+PageOffset FFFF810000000000
+Comment 3.10.0-123.el7.x86_64 RHEL 7.0

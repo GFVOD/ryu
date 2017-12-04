@@ -1,0 +1,7 @@
+UtsRelease 2.6.24-16-server
+UtsVersion #1 SMP Thu Apr 10 12:47:45 UTC 2008
+UtsMachine i386
+ModVersion yes
+SMP yes
+PageOffset C0000000
+Comment Ubuntu8.04, 2.6.24-16, i386, server

@@ -1,0 +1,6 @@
+UtsRelease 2.6.32-200.13.1.el5uek
+UtsMachine i386
+ModVersion yes
+SMP yes
+PageOffset C0000000
+Comment 2.6.32-200.13.1.el5uek Oracle 5.7

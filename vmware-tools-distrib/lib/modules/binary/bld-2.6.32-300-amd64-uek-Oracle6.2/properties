@@ -1,0 +1,6 @@
+UtsRelease 2.6.32-300.3.1.el6uek.x86_64
+UtsMachine x86_64
+ModVersion yes
+SMP yes
+PageOffset FFFF810000000000
+Comment 2.6.32-300.3.1.el6uek.x86_64 Oracle 6.2

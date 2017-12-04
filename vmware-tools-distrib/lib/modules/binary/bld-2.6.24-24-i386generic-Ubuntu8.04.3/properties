@@ -1,0 +1,7 @@
+UtsRelease 2.6.24-24-generic
+UtsVersion #1 SMP Wed Apr 15 15:11:35 UTC 2009
+UtsMachine i386
+ModVersion yes
+SMP yes
+PageOffset C0000000
+Comment Ubuntu8.04.3, 2.6.24-24, i386, generic

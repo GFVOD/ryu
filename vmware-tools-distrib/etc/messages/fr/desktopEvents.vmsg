@@ -1,0 +1,20 @@
+##############################################################
+# Copyright (c) 2010-2015 VMware, Inc.  All rights reserved.
+##############################################################
+#
+# English translation catalog.
+#
+# Please follow a few guidelines when editing this file:
+#   . Try to maintain formatting (e.g., indentation and line breaks).
+#   . Avoid long lines by breaking them into multiple lines.
+#   . Catalogs *must* be in UTF-8.
+#   . Try to keep the file sorted by message id.
+#
+
+displayDPI.logout.caption = "VMware Tools"
+
+displayDPI.logout.message = "VMware Tools a modifié les paramètres de taille de l'interface utilisateur. Vous devez vous déconnecter pour appliquer ces modifications. Fermez toutes les applications et appuyez sur OK pour vous déconnecter maintenant, ou appuyez sur Annuler pour vous déconnecter ultérieurement."
+
+pmtimer.warning.caption = "Erreur de configuration du système d'exploitation"
+
+pmtimer.warning.text = "VMware Tools Service a détecté une erreur avec la configuration du système d'exploitation de cette machine virtuelle. Le fichier Boot.ini spécifie le paramètre de démarrage « /usepmtimer ». Ce paramètre diminue extrêmement les performances de la machine virtuelle sous certaines charges de travail.\n\nSupprimez le paramètre « usepmtimer » du fichier Boot.ini et redémarrez la machine virtuelle pour améliorer ses performances.\n\nPour plus d'informations, reportez-vous à l'article 1011714 de la base de connaissances VMware."

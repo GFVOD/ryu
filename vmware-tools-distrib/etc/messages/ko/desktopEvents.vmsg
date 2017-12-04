@@ -1,0 +1,20 @@
+##############################################################
+# Copyright (c) 2010-2015 VMware, Inc.  All rights reserved.
+##############################################################
+#
+# English translation catalog.
+#
+# Please follow a few guidelines when editing this file:
+#   . Try to maintain formatting (e.g., indentation and line breaks).
+#   . Avoid long lines by breaking them into multiple lines.
+#   . Catalogs *must* be in UTF-8.
+#   . Try to keep the file sorted by message id.
+#
+
+displayDPI.logout.caption = "VMware Tools"
+
+displayDPI.logout.message = "VMware Tools의 사용자 인터페이스 크기 설정이 수정되었습니다. 이러한 변경 내용을 적용하려면 로그오프해야 합니다. 모든 애플리케이션을 닫고 [\[]확인[\]]을 눌러 지금 로그오프하거나 [\[]취소[\]]를 눌러 나중에 로그오프하십시오."
+
+pmtimer.warning.caption = "운영 체제 구성 오류"
+
+pmtimer.warning.text = "VMware Tools 서비스가 이 가상 시스템의 운영 체제 구성에서 오류를 발견했습니다. Boot.ini 파일이 |22/usepmtimer|22 boot 매개 변수를 지정합니다. 이 매개 변수를 사용하면 특정 워크로드에서 VM 성능이 심각하게 저하됩니다.\n\nVM 성능을 높이려면 Boot.ini 파일에서 |22usepmtimer|22 매개 변수를 제거하고 VM을 다시 시작하십시오.\n\n자세한 내용은 VMware 기술 자료 문서 KB 1011714를 참조하십시오."

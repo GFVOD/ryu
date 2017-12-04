@@ -1,0 +1,7 @@
+UtsRelease 2.6.27-7-server
+UtsVersion #1 SMP Fri Oct 24 08:23:35 UTC 2008
+UtsMachine x86_64
+ModVersion yes
+SMP yes
+PageOffset FFFF810000000000
+Comment Ubuntu8.10, 2.6.27-7, amd64, server

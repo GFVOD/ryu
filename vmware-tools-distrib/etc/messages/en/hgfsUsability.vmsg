@@ -1,0 +1,19 @@
+##############################################################
+# Copyright (c) 2010-2015 VMware, Inc.  All rights reserved.
+##############################################################
+#
+# English translation catalog.
+#
+# Please follow a few guidelines when editing this file:
+#   . Try to maintain formatting (e.g., indentation and line breaks).
+#   . Avoid long lines by breaking them into multiple lines.
+#   . Catalogs *must* be in UTF-8.
+#   . Try to keep the file sorted by message id.
+#
+
+redirect.logout.message = "VMware Tools has modified settings to enable sharing data with the host. You must log off to apply these settings. Press OK to log off now. Press Cancel to log off later."
+
+redirect.logout.title = "VMware Tools"
+
+sharedfolders.name = "VMware Shared Folders"
+

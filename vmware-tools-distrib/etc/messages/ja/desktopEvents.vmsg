@@ -1,0 +1,20 @@
+##############################################################
+# Copyright (c) 2010-2015 VMware, Inc.  All rights reserved.
+##############################################################
+#
+# English translation catalog.
+#
+# Please follow a few guidelines when editing this file:
+#   . Try to maintain formatting (e.g., indentation and line breaks).
+#   . Avoid long lines by breaking them into multiple lines.
+#   . Catalogs *must* be in UTF-8.
+#   . Try to keep the file sorted by message id.
+#
+
+displayDPI.logout.caption = "VMware Tools"
+
+displayDPI.logout.message = "VMware Tools により、ユーザー インターフェイスのサイズ設定が変更されました。これらの変更を適用するには、ログオフする必要があります。今すぐログオフするには、すべてのアプリケーションを終了して「OK」をクリックしてください。後でログオフするには、「キャンセル」をクリックしてください。"
+
+pmtimer.warning.caption = "オペレーティング システム構成エラー"
+
+pmtimer.warning.text = "VMware Tools Service により、この仮想マシンのオペレーティング システムの構成でエラーが検出されました。Boot.ini ファイルには |22/usepmtimer|22 ブート パラメータが指定されます。作業負荷によっては、このパラメータによって VM のパフォーマンスが大幅に低下することがあります。\n\nBoot.ini ファイルから |22usepmtimer|22 パラメータを削除して、VM を再起動してくだい。これで VM のパフォーマンスが向上します。\n\n詳細は、VMware Knowledge Base (KB) の記事 KB 1011714 を参照してください。"

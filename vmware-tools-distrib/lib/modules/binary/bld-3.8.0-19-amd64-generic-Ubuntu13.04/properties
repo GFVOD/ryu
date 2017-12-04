@@ -1,0 +1,6 @@
+UtsRelease 3.8.0-19-generic
+UtsMachine x86_64
+ModVersion yes
+SMP yes
+PageOffset FFFF810000000000
+Comment 3.8.0-19-generic Ubuntu 13.04

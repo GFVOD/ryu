@@ -1,0 +1,33 @@
+#!/bin/sh
+##########################################################################
+# Copyright (c) 2010-2015 VMware, Inc.  All rights reserved.
+##########################################################################
+
+##########################################################################
+# DO NOT modify this file directly as it will be overwritten the next
+# time the VMware Tools are installed.
+##########################################################################
+
+
+#
+# Panic --
+#
+#    Write a formatted error message to stderr and exit.
+#
+# Results:
+#    Stderr is spammed, program exits with exit code 1.
+#
+# Side effects:
+#    None.
+#
+
+Panic() {
+   fmt="`date '+%b %d %H:%M:%S'` `basename \"$0\"`"
+   if [ -n "$1" ]; then
+      fmt="${fmt}: $1"
+      shift
+   fi
+
+   printf >&2 "${fmt}\n" "$@"
+   exit 1
+}

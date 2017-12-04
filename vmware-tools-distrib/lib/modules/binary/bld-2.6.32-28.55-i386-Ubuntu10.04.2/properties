@@ -1,0 +1,6 @@
+UtsRelease 2.6.32-28-386
+UtsMachine i386
+ModVersion yes
+SMP yes
+PageOffset C0000000
+Comment 2.6.32-28-386 Ubuntu 10.04.2

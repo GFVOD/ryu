@@ -1,0 +1,6 @@
+UtsRelease 2.6.32-24-generic-pae
+UtsMachine i386
+ModVersion yes
+SMP yes
+PageOffset C0000000
+Comment bld-2.6.32-24-i386-generic-pae-Ubuntu10.04.1 2.6.32-24-generic-pae

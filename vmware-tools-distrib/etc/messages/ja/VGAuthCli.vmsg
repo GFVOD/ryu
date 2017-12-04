@@ -1,0 +1,70 @@
+##############################################################
+# Copyright (c) 2011-2015 VMware, Inc.  All rights reserved.
+##############################################################
+#
+# English translation catalog.
+#
+# Please follow a few guidelines when editing this file:
+#   . Try to maintain formatting (e.g., indentation and line breaks).
+#   . Avoid long lines by breaking them into multiple lines.
+#   . Catalogs *must* be in UTF-8.
+#   . Try to keep the file sorted by message id.
+#
+
+addsubj.fail = "%1$s: ユーザー '%2$s' のエイリアスを追加できませんでした: %3$s。\n"
+addsubj.success = "%1$s: エイリアスが追加されました\n"
+
+addoptions.comment = "サブジェクトのコメント"
+
+addoptions.file = "PEM ファイル名"
+
+addoptions.global = "グローバル マッピング ファイルに証明書を追加"
+
+addoptions.subject = "SAML サブジェクト"
+
+addoptions.username = "証明書ストアが追加されているユーザー"
+
+addoptions.verbose = "詳細な操作"
+
+
+cmdline.parse = "コマンド ラインの解析に失敗しました"
+
+cmdline.summary.pemfile = "PEM ファイル"
+cmdline.summary.subject = "サブジェクト"
+cmdline.summary.username = "ユーザー名"
+cmdline.summary.comm = "コメント"
+
+list.comment = "コメント"
+list.count = "%1$s でユーザー '%3$s' のエイリアスが %2$d 個検出されました\n"
+
+list.error = "%1$s: ユーザー '%2$s' のエイリアスを一覧表示できませんでした: %3$s。\n"
+list.subject = "サブジェクト"
+
+listmapped.count = "%1$s でマップされた %2$d 個のエイリアスが検出されました\n"
+
+listmapped.error = "%1$s: マップされたエイリアスを一覧表示できませんでした: %2$s。\n"
+
+listmapped.subject = "サブジェクト"
+
+listmapped.username = "ユーザー名"
+
+listoptions.username = "証明書ストアが照会されているユーザー"
+
+listoptions.verbose = "詳細な操作"
+
+loadfile.fail = "%1$s: PEM ファイル '%2$s' を読み取ることができません\n"
+
+name.any = "<ANY>"
+
+removesubj.fail = "%1$s: ユーザー '%2$s' のエイリアスを削除できませんでした: %3$s。\n"
+
+removesubj.success = "%1$s: エイリアスが削除されました\n"
+
+removeoptions.file = "PEM ファイル名"
+
+removeoptions.subject = "SAML サブジェクト"
+removeoptions.username = "証明書ストアが削除されているユーザー"
+
+removeoptions.verbose = "詳細な操作"
+
+vgauth.init.failed = "VGAuth を初期化できませんでした"

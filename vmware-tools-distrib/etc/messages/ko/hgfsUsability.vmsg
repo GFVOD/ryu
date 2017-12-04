@@ -1,0 +1,19 @@
+##############################################################
+# Copyright (c) 2010-2015 VMware, Inc.  All rights reserved.
+##############################################################
+#
+# English translation catalog.
+#
+# Please follow a few guidelines when editing this file:
+#   . Try to maintain formatting (e.g., indentation and line breaks).
+#   . Avoid long lines by breaking them into multiple lines.
+#   . Catalogs *must* be in UTF-8.
+#   . Try to keep the file sorted by message id.
+#
+
+redirect.logout.message = "호스트와 데이터를 공유할 수 있도록 VMware Tools 설정이 수정되었습니다. 이 설정을 적용하려면 로그오프해야 합니다. 지금 로그오프하려면 [\[]확인[\]]을 누르고 나중에 로그오프하려면 [\[]취소[\]]를 누르십시오."
+
+redirect.logout.title = "VMware Tools"
+
+sharedfolders.name = "VMware 공유 폴더"
+

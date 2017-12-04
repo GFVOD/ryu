@@ -1,0 +1,7 @@
+UtsRelease 2.6.24-19-server
+UtsVersion #1 SMP Wed Jun 18 14:43:41 UTC 2008
+UtsMachine x86_64
+ModVersion yes
+SMP yes
+PageOffset FFFF810000000000
+Comment Ubuntu8.04.1, 2.6.24-19, amd64, server

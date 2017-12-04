@@ -1,0 +1,6 @@
+UtsRelease 2.6.32-38-server
+UtsMachine x86_64
+ModVersion yes
+SMP yes
+PageOffset FFFF810000000000
+Comment 2.6.32-38-server Ubuntu 10.04.4

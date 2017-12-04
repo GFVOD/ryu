@@ -1,0 +1,5 @@
+[Pango]
+ModuleFiles = /build/toolchain/lin32/pango-1.26.0/etc/pango/pango.modules.toolchain
+
+[PangoX]
+AliasFiles = /build/toolchain/lin32/pango-1.26.0/etc/pango/pangox.aliases

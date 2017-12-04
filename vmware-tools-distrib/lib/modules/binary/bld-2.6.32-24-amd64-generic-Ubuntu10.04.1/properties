@@ -1,0 +1,6 @@
+UtsRelease 2.6.32-24-generic
+UtsMachine x86_64
+ModVersion yes
+SMP yes
+PageOffset FFFF810000000000
+Comment bld-2.6.32-24-amd64-generic-Ubuntu10.04.1 2.6.32-24-generic

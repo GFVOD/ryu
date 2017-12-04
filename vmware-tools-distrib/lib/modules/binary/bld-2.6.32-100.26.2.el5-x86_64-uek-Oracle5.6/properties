@@ -1,0 +1,6 @@
+UtsRelease 2.6.32-100.26.2.el5
+UtsMachine x86_64
+ModVersion yes
+SMP yes
+PageOffset FFFF810000000000
+Comment Oracle5.6, 2.6.32-100.26.2.el5, amd64, smp

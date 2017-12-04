@@ -1,0 +1,6 @@
+UtsRelease 2.6.38-8-generic-pae
+UtsMachine i386
+ModVersion yes
+SMP yes
+PageOffset C1000000
+Comment 2.6.38-8-generic-pae Ubuntu 11.04

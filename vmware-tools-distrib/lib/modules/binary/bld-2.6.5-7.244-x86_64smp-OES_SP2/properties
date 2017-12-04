@@ -1,0 +1,6 @@
+UtsRelease 2.6.5-7.244-smp
+ModVersion yes
+SMP yes
+PageOffset 0000010000000000
+Comment SuSE SLES SP3, 2.6.5-7.244, x86_64, smp
+UtsMachine x86_64

@@ -1,0 +1,7 @@
+UtsRelease 2.6.16.60-0.54.5-vmipae
+UtsVersion #1 Sat Sep  5 10:53:48 UTC 2009
+UtsMachine i386
+ModVersion yes
+SMP yes
+PageOffset C0000000
+Comment SLES10 SP3, 2.6.16.60-0.54.5, i586, vmipae

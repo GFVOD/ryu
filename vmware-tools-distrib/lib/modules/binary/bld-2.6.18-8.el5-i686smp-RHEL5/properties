@@ -1,0 +1,6 @@
+UtsRelease 2.6.18-8.el5
+UtsMachine i386
+ModVersion yes
+SMP yes
+PageOffset C0000000
+Comment RHEL5, 2.6.18-8.el5, i686, smp

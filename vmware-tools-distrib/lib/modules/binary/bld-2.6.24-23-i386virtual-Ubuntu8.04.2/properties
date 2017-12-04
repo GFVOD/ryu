@@ -1,0 +1,7 @@
+UtsRelease 2.6.24-23-virtual
+UtsVersion #1 SMP Thu Nov 27 22:22:52 UTC 2008
+UtsMachine i386
+ModVersion yes
+SMP yes
+PageOffset C0000000
+Comment Ubuntu8.04.2, 2.6.24-23, i386, virtual

@@ -1,0 +1,6 @@
+UtsRelease 2.6.35-22-generic
+UtsMachine i386
+ModVersion yes
+SMP yes
+PageOffset C0000000
+Comment 2.6.35-22-generic Ubuntu 10.10

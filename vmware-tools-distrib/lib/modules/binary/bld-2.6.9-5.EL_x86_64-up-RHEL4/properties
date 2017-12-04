@@ -1,0 +1,6 @@
+UtsRelease 2.6.9-5.EL
+ModVersion yes
+SMP no
+PageOffset 0000010000000000
+Comment RHEL 4.0, 2.6.9-5.EL, x86_64 UP
+UtsMachine x86_64

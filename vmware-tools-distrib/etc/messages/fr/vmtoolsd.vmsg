@@ -1,0 +1,59 @@
+##############################################################
+# Copyright (c) 2010-2015 VMware, Inc.  All rights reserved.
+##############################################################
+#
+# English translation catalog.
+#
+# Please follow a few guidelines when editing this file:
+#   . Try to maintain formatting (e.g., indentation and line breaks).
+#   . Avoid long lines by breaking them into multiple lines.
+#   . Catalogs *must* be in UTF-8.
+#   . Try to keep the file sorted by message id.
+#
+
+cmdline.background = "S'exécute en arrière-plan et crée un fichier PID."
+
+cmdline.background.pidfile = "pidfile"
+
+cmdline.blockfd = "Le descripteur de fichier pour le fs bloquant VMware."
+
+cmdline.blockfd.fd = "fd"
+
+cmdline.commonpath = "Chemin vers les répertoires de plug-ins communs."
+
+cmdline.config = "Utilise le fichier de config pour le chemin donné."
+
+cmdline.debug = "S'exécute en mode débogage à l'aide du module d'extension spécifié."
+
+cmdline.displayname = "Nom d'affichage du service (uniquement utilisé avec -i)."
+
+cmdline.displayname.argument = "nom"
+
+cmdline.install = "Installe le service avec le Service Control Manager."
+
+cmdline.install.args = "args"
+
+cmdline.kill = "Arrête une 'instance en cours d'exécution d'un service d'outils."
+
+cmdline.log = "Ignoré, conservé pour compatibilité descendante."
+
+cmdline.name = "Nom du service en cours de démarrage."
+
+cmdline.name.argument = "svcname"
+
+cmdline.path = "chemin"
+
+cmdline.pluginpath = "Chemin vers le répertoire des plug-ins."
+
+cmdline.rpc = "Envoie une commande d'appel de procédure à distance à l'hôte puis quitte l'application."
+
+cmdline.rpc.command = "commande"
+
+cmdline.rpcerror = "Impossible d'envoyer la commande à l'hyperviseur VMware."
+
+cmdline.state = "Transfère l'état interne d'un service en cours d'exécution dans les journaux."
+
+cmdline.uninstall = "Désinstalle le service du Gestionnaire de contrôle du service."
+
+cmdline.version = "Imprime la version démon et quitte l'application."
+

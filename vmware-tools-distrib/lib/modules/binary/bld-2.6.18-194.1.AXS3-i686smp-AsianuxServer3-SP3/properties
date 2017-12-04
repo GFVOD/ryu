@@ -1,0 +1,6 @@
+UtsRelease 2.6.18-194.1.AXS3
+UtsMachine i386
+ModVersion yes
+SMP yes
+PageOffset C0000000
+Comment AXS3-SP3, 2.6.18-194.1.AXS3, i686, 

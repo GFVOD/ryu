@@ -1,0 +1,6 @@
+UtsRelease 2.6.5-7.244-default
+ModVersion yes
+SMP no
+PageOffset C0000000
+Comment Novell OES SP2 and SuSE SLES SP3, 2.6.5-7.244, i586, default
+UtsMachine i386

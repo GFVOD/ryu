@@ -1,0 +1,6 @@
+UtsRelease 2.6.18-238.2.AXS3
+UtsMachine i386
+ModVersion yes
+SMP yes
+PageOffset C0000000
+Comment 2.6.18-238.2.AXS3 asianux 3.4

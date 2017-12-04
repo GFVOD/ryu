@@ -9,7 +9,6 @@ import socket
 import binascii
 import operator
 import struct
-
 from ryu.base import app_manager
 from ryu.controller import ofp_event
 from ryu.controller.handler import MAIN_DISPATCHER

@@ -1,0 +1,6 @@
+UtsRelease 2.4.9-e.72smp
+UtsMachine i386
+ModVersion yes
+SMP yes
+PageOffset C0000000
+Comment RHEL2.1, 2.4.9-e.72, i686, smp

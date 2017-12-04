@@ -1,0 +1,6 @@
+UtsRelease 2.6.32-300.3.1.el6uek.i686
+UtsMachine i386
+ModVersion yes
+SMP yes
+PageOffset C0000000
+Comment 2.6.32-300.3.1.el6uek.i686 Oracle 6.2

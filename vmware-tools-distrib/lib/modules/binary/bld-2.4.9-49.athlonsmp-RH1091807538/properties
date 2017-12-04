@@ -1,0 +1,7 @@
+UtsRelease 2.4.9-e.49smp
+ModVersion yes
+SMP yes
+PageOffset C0000000
+Comment Red Hat EL 2.1 update 5 (i386)
+UtsMachine i386
+AthlonKernel required

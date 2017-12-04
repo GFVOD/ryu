@@ -1,0 +1,6 @@
+UtsRelease 2.6.18-8.10AXPAE
+UtsMachine i386
+ModVersion yes
+SMP yes
+PageOffset C0000000
+Comment AsianuxServer3, 2.6.18-8.10AX, i686, PAE

@@ -1,0 +1,6 @@
+UtsRelease 2.6.5-7.111-smp
+ModVersion yes
+SMP yes
+PageOffset C0000000
+Comment Novell Linux Desktop 9, 2.6.5-7.111, smp
+UtsMachine i386

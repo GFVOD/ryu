@@ -1,0 +1,6 @@
+UtsRelease 2.4.9-e.3
+ModVersion yes
+SMP no
+PageOffset C0000000
+Comment Linux Red Hat Advanced Server version 2.1
+UtsMachine i386

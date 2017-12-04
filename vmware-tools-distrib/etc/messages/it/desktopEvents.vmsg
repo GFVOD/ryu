@@ -1,0 +1,20 @@
+##############################################################
+# Copyright (c) 2010-2015 VMware, Inc.  All rights reserved.
+##############################################################
+#
+# English translation catalog.
+#
+# Please follow a few guidelines when editing this file:
+#   . Try to maintain formatting (e.g., indentation and line breaks).
+#   . Avoid long lines by breaking them into multiple lines.
+#   . Catalogs *must* be in UTF-8.
+#   . Try to keep the file sorted by message id.
+#
+
+displayDPI.logout.caption = "VMware Tools"
+
+displayDPI.logout.message = "VMware Tools ha modificato le impostazioni della dimensione dell'interfaccia utente. È necessario disconnettersi per applicare queste modifiche. Chiudere tutte le applicazioni e premere OK per disconnettersi adesso, oppure premere Annulla per disconnettersi più tardi."
+
+pmtimer.warning.caption = "Errore di configurazione sistema operativo"
+
+pmtimer.warning.text = "VMware Tools Service ha rilevato un errore di configurazione del sistema operativo della macchina virtuale. Il file Boot.ini specifica il parametro |22/usepmtimer|22 boot. Questo parametro degrada notevolmente le prestazioni delle macchine virtuali in determinati carichi di lavoro.\n\nRimuovere il parametro |22usepmtimer|22 dal file Boot.ini e riavviare la macchina virtuale per migliorarne le prestazioni.\n\nPer ulteriori dettagli consultare l'articolo VMware Knowledge Base (KB) KB 1011714."

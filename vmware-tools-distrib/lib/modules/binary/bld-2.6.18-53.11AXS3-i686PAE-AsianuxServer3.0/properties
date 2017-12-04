@@ -1,0 +1,7 @@
+UtsRelease 2.6.18-53.11AXS3PAE
+UtsVersion #1 SMP Tue Aug 19 21:04:33 EDT 2008
+UtsMachine i386
+ModVersion yes
+SMP yes
+PageOffset C0000000
+Comment AsianuxServer3.0SP1, 2.6.18-53.11AXS3PAE, i686, PAE

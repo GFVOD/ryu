@@ -1,0 +1,7 @@
+UtsRelease 2.6.27.19-3.1-pae
+UtsVersion #1 Tue Jan 27 15:04:36 UTC 2009
+UtsMachine i386
+ModVersion yes
+SMP yes
+PageOffset C0000000
+Comment SLES11/SLED11, 2.6.27.19-3.1, i586, pae

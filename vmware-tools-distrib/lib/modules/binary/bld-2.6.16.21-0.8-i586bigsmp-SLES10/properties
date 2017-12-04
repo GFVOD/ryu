@@ -1,0 +1,6 @@
+UtsRelease 2.6.16.21-0.8-bigsmp
+ModVersion yes
+SMP yes
+PageOffset C0000000
+Comment SLES10, 2.6.16.21-0.8, i586, bigsmp
+UtsMachine i386

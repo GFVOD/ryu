@@ -1,0 +1,101 @@
+#!/bin/sh
+#
+# XXX Run this past Legal.
+#
+#   Copyright (c) 2010-2015 VMware, Inc.  All rights reserved.
+#   Copyright 2009-2010, Fathi Boudra <fabo@freedesktop.org>
+#   Copyright 2009-2010, Rex Dieter <rdieter@fedoraproject.org>
+#   Copyright 2006, Kevin Krammer <kevin.krammer@gmx.at>
+#   Copyright 2006, Jeremy White <jwhite@codeweavers.com>
+#
+#   LICENSE:
+#
+#   Permission is hereby granted, free of charge, to any person obtaining a
+#   copy of this software and associated documentation files (the "Software"),
+#   to deal in the Software without restriction, including without limitation
+#   the rights to use, copy, modify, merge, publish, distribute, sublicense,
+#   and/or sell copies of the Software, and to permit persons to whom the
+#   Software is furnished to do so, subject to the following conditions:
+#
+#   The above copyright notice and this permission notice shall be included
+#   in all copies or substantial portions of the Software.
+#
+#   THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS
+#   OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+#   FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL
+#   THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR
+#   OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE,
+#   ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR
+#   OTHER DEALINGS IN THE SOFTWARE.
+
+
+# usage: xdg-find-menus
+#
+# Examines the local system and prints, one per line, XDG menu-spec .menu files
+# to be used by GHI.
+
+
+#--------------------------------------
+# Returns path to system menu directory
+getMenuDir()
+{
+   xdg_dir_name=menus
+   xdg_system_dirs="$XDG_CONFIG_DIRS"
+   [ -n "$xdg_system_dirs" ] || xdg_system_dirs=/etc/xdg
+   xdg_global_dir=
+   for x in `echo $xdg_system_dirs | sed 's/:/ /g'` ; do
+      if [ -d $x/$xdg_dir_name ] ; then
+         xdg_global_dir="$x/$xdg_dir_name"
+         break
+      fi
+   done
+   echo $xdg_global_dir
+}
+
+main()
+{
+   xdg_global_dir=`getMenuDir`
+
+   # Empirical notes:
+   #    GNOME menus placed at $XDG_CONFIG_DIRS/menus/{applications,settings}.menu.
+   #    KDE4 installed at kde4-applications.menu on Fedora, RHEL, and Ubuntu.
+   #    OpenSUSE/SLE uses applications.menu.
+   #
+   #    M = Set of menu prefixes
+   #    B = Set of menu basenames
+   #    This scribble enumerates M×B.
+   #
+   base="applications"
+   case `vmware-xdg-detect-de` in
+   GNOME)
+      base="$base settings"
+      pfx="gnome-"
+      ;;
+   KDE)
+      pfx="kde4-"
+      ;;
+   XFCE)
+      pfx="xfce-"
+      ;;
+   Unity)
+      pfx="unity-lens-"
+      ;;
+   LXDE)
+      pfx="lxde-"
+      ;;
+   *)
+      ;;
+   esac
+
+   for base in $base; do
+      for pfx in $pfx "$XDG_MENU_PREFIX"; do
+         _menu=${xdg_global_dir}/${pfx}${base}.menu
+         if [ -f $_menu ]; then
+            echo $_menu
+            break
+         fi
+      done
+   done
+}
+
+main

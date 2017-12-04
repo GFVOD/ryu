@@ -1,0 +1,7 @@
+UtsRelease 2.6.31-14-generic
+UtsVersion #48-Ubuntu SMP Fri Oct 16 14:04:26 UTC 2009
+UtsMachine i386
+ModVersion yes
+SMP yes
+PageOffset C0000000
+Comment Ubuntu9.10, 2.6.31-14.48, i386, generic

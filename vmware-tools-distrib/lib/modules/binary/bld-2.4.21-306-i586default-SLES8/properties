@@ -1,0 +1,7 @@
+UtsRelease 2.4.21-306-default
+UtsVersion #1 Fri Feb 10 14:20:22 UTC 2006
+ModVersion yes
+SMP no
+PageOffset C0000000
+Comment SLES8, 2.4.21-306, i586, default
+UtsMachine i386

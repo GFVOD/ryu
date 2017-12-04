@@ -1,0 +1,6 @@
+UtsRelease 3.0.0-12-virtual
+UtsMachine i386
+ModVersion yes
+SMP yes
+PageOffset C0000000
+Comment 3.0.0-12-virtual Ubuntu 11.10

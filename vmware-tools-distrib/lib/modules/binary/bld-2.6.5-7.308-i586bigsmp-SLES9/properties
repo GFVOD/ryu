@@ -1,0 +1,6 @@
+UtsRelease 2.6.5-7.308-bigsmp
+ModVersion yes
+SMP yes
+PageOffset C0000000
+Comment SuSE SLES9 SP4, 2.6.5-7.308, i586, bigsmp
+UtsMachine i386

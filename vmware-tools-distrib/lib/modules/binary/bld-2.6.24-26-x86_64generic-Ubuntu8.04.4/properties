@@ -1,0 +1,7 @@
+UtsRelease 2.6.24-26-generic
+UtsVersion #1 SMP Tue Dec 1 17:55:03 UTC 2009
+UtsMachine x86_64
+ModVersion yes
+SMP yes
+PageOffset FFFF810000000000
+Comment Ubuntu8.04.4, 2.6.24-26, x86_64, generic

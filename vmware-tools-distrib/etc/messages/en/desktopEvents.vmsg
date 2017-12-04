@@ -1,0 +1,20 @@
+##############################################################
+# Copyright (c) 2010-2015 VMware, Inc.  All rights reserved.
+##############################################################
+#
+# English translation catalog.
+#
+# Please follow a few guidelines when editing this file:
+#   . Try to maintain formatting (e.g., indentation and line breaks).
+#   . Avoid long lines by breaking them into multiple lines.
+#   . Catalogs *must* be in UTF-8.
+#   . Try to keep the file sorted by message id.
+#
+
+displayDPI.logout.caption = "VMware Tools"
+
+displayDPI.logout.message = "VMware Tools has modified the user interface size settings. You must log off to apply these changes. Close all applications and press OK to log off now, or press Cancel to log off later."
+
+pmtimer.warning.caption = "Operating System Configuration Error"
+
+pmtimer.warning.text = "The VMware Tools Service detected an error with this virtual machine's operating system configuration. The Boot.ini file specifies the |22/usepmtimer|22 boot parameter. This parameter severely degrades VM performance under certain workloads.\n\nRemove the |22usepmtimer|22 parameter from the Boot.ini file and restart the VM, to improve VM performance.\n\nSee VMware Knowledge Base (KB) article KB 1011714 for additional details."

@@ -1,5 +1,3 @@
-#!/usr/bin/env python
-
 from mininet.net import Mininet
 from mininet.node import Controller, RemoteController
 from mininet.cli import CLI
@@ -9,10 +7,8 @@ from mininet.topo import Topo
 from mininet.util import dumpNodeConnections
 import logging
 import os
-
 logging.basicConfig(filename='./fattree.log', level=logging.INFO)
 logger = logging.getLogger(__name__)
-
 
 class Fattree(Topo):
     logger.debug("Class Fattree")

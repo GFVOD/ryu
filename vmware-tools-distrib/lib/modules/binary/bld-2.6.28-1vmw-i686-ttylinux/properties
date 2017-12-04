@@ -1,0 +1,7 @@
+UtsRelease 2.6.28-1vmw
+UtsVersion #1 SMP Tue Jun 14 12:01:14 PDT 2011
+UtsMachine i686
+ModVersion yes
+SMP yes
+PageOffset C0000000
+Comment ttylinux, 2.6.28-1vmw, i686

@@ -1,0 +1,7 @@
+UtsRelease 2.6.16.60-0.21-default
+UtsVersion #1 Tue May 6 12:41:02 UTC 2008
+UtsMachine x86_64
+ModVersion yes
+SMP no
+PageOffset FFFF810000000000
+Comment SLES10 SP2, 2.6.16.60-0.21, x86_64, default

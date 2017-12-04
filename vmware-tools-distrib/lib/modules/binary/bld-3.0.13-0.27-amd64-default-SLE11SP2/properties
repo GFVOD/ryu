@@ -1,0 +1,6 @@
+UtsRelease 3.0.13-0.27-default
+UtsMachine x86_64
+ModVersion yes
+SMP yes
+PageOffset FFFF810000000000
+Comment 3.0.13-0.27-default SLE11 SP2

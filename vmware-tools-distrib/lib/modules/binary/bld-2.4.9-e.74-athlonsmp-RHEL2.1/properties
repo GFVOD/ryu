@@ -1,0 +1,7 @@
+UtsRelease 2.4.9-e.74smp
+UtsMachine i386
+ModVersion yes
+SMP yes
+AthlonKernel required
+PageOffset C0000000
+Comment RHEL2.1, 2.4.9-e.74, athlon, smp

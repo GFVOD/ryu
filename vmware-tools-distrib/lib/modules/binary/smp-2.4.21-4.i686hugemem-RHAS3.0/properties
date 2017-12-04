@@ -1,0 +1,6 @@
+UtsRelease 2.4.21-4.ELhugemem
+ModVersion yes
+SMP yes
+PageOffset 02000000
+Comment Linux Red Hat Advanced Server version 3.0
+UtsMachine i386

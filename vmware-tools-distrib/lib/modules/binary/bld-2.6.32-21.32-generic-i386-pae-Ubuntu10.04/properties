@@ -1,0 +1,7 @@
+UtsRelease 2.6.32-21-generic-pae
+UtsVersion #32-Ubuntu SMP Fri Apr 16 09:39:35 UTC 2010
+UtsMachine i386
+ModVersion yes
+SMP yes
+PageOffset C0000000
+Comment Ubuntu10.04, 2.6.32-21.32, i386, generic-pae

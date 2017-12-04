@@ -1,0 +1,6 @@
+UtsRelease 2.4.21-278-smp
+ModVersion yes
+SMP yes
+PageOffset C0000000
+Comment SuSE SLES 8 with SP4
+UtsMachine i386

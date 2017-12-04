@@ -1,0 +1,59 @@
+##############################################################
+# Copyright (c) 2010-2015 VMware, Inc.  All rights reserved.
+##############################################################
+#
+# English translation catalog.
+#
+# Please follow a few guidelines when editing this file:
+#   . Try to maintain formatting (e.g., indentation and line breaks).
+#   . Avoid long lines by breaking them into multiple lines.
+#   . Catalogs *must* be in UTF-8.
+#   . Try to keep the file sorted by message id.
+#
+
+cmdline.background = "Wird im Hintergrund ausgeführt und erstellt eine pid-Datei."
+
+cmdline.background.pidfile = "pidfile"
+
+cmdline.blockfd = "Dateideskriptor für das Dateisystem, das VMware blockiert."
+
+cmdline.blockfd.fd = "fd"
+
+cmdline.commonpath = "Pfad zum Plug-In-Verzeichnis."
+
+cmdline.config = "Verwendet die Konfigurationsdatei im angegebenen Pfad."
+
+cmdline.debug = "Wird unter Verwendung des angegebenen Plug-Ins im Debug-Modus ausgeführt."
+
+cmdline.displayname = "Anzeigename des Dienstes (wird nur mit -i verwendet)."
+
+cmdline.displayname.argument = "Name"
+
+cmdline.install = "Installiert den Dienst mit dem Service Control Manager (SCM)."
+
+cmdline.install.args = "args"
+
+cmdline.kill = "Stoppt eine laufende Instanz eines Tools-Dienstes."
+
+cmdline.log = "Ignoriert; für Abwärtskompatibilität beibehalten."
+
+cmdline.name = "Name des Dienstes, der gestartet wird."
+
+cmdline.name.argument = "svcname"
+
+cmdline.path = "Pfad"
+
+cmdline.pluginpath = "Pfad des Plug-In-Verzeichnisses."
+
+cmdline.rpc = "Sendet einen RPC-Befehl an den Host und wird beendet."
+
+cmdline.rpc.command = "Befehl"
+
+cmdline.rpcerror = "Befehl konnte nicht an VMware-Hypervisor gesendet werden."
+
+cmdline.state = "Führt einen Dump des internen Zustands der Instanz eines laufenden Dienstes in die Protokolle aus."
+
+cmdline.uninstall = "Deinstalliert den Dienst vom Service Control Manager (SCM)."
+
+cmdline.version = "Druckt die Version des Daemons und wird beendet."
+

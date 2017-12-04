@@ -1,0 +1,6 @@
+UtsRelease 2.6.38-8-generic
+UtsMachine x86_64
+ModVersion yes
+SMP yes
+PageOffset FFFF810000000000
+Comment 2.6.38-8-generic Ubuntu 11.04

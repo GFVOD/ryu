@@ -1,0 +1,59 @@
+##############################################################
+# Copyright (c) 2010-2015 VMware, Inc.  All rights reserved.
+##############################################################
+#
+# English translation catalog.
+#
+# Please follow a few guidelines when editing this file:
+#   . Try to maintain formatting (e.g., indentation and line breaks).
+#   . Avoid long lines by breaking them into multiple lines.
+#   . Catalogs *must* be in UTF-8.
+#   . Try to keep the file sorted by message id.
+#
+
+cmdline.background = "Runs in the background and creates a pid file."
+
+cmdline.background.pidfile = "pidfile"
+
+cmdline.blockfd = "File descriptor for the VMware blocking fs."
+
+cmdline.blockfd.fd = "fd"
+
+cmdline.commonpath = "Path to the common plugin directory."
+
+cmdline.config = "Uses the config file at the given path."
+
+cmdline.debug = "Runs in debug mode, using the given plugin."
+
+cmdline.displayname = "Service display name (only used with -i)."
+
+cmdline.displayname.argument = "name"
+
+cmdline.install = "Installs the service with the Service Control Manager."
+
+cmdline.install.args = "args"
+
+cmdline.kill = "Stops a running instance of a tools service."
+
+cmdline.log = "Ignored, kept for backwards compatibility."
+
+cmdline.name = "Name of the service being started."
+
+cmdline.name.argument = "svcname"
+
+cmdline.path = "path"
+
+cmdline.pluginpath = "Path to the plugin directory."
+
+cmdline.rpc = "Sends an RPC command to the host and exits."
+
+cmdline.rpc.command = "command"
+
+cmdline.rpcerror = "Unable to send command to VMware hypervisor."
+
+cmdline.state = "Dumps the internal state of a running service instance to the logs."
+
+cmdline.uninstall = "Uninstalls the service from the Service Control Manager."
+
+cmdline.version = "Prints the daemon version and exits."
+

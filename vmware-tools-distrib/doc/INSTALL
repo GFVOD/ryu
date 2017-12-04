@@ -1,0 +1,67 @@
+Copyright (c) 1998-2015 VMware, Inc.  All rights reserved.
+
+
+Please visit http://www.vmware.com/info?id=99 for help on getting started
+installing VMware Tools.
+
+_____________________________________________________________________________
+
+INSTALLING/UPGRADING
+
+  To install/upgrade VMware Tools for Linux,
+  run the program "vmware-install.pl" from a command prompt, either in text
+  mode or from a terminal inside an X session. You must have super user
+  privileges (i.e. be logged as root) to run it.
+
+     ./vmware-install.pl
+
+  If you are installing VMware Tools for the first time,
+  you can hit the <enter> key each time you are prompted to select the
+  factory default answer. By default,
+  the installation program installs:
+       the executables         in /usr/bin,
+       the server executables  in /usr/sbin,
+       the library files       in /usr/lib/vmware-tools,
+   and the documentation files in /usr/share/doc/vmware-tools.
+
+  If you have previously installed VMware Tools,
+  you can hit the <enter> key each time you are prompted to keep your previous
+  answer, or you can decide to submit a new answer.
+
+  Once the installation/upgrade is complete, you can safely remove the
+  vmware-tools-distrib directory from your system.
+
+CONFIGURING
+
+  In order to run correctly, VMware Tools must first be configured.
+
+  To configure VMware Tools, run the program "vmware-config-tools.pl" (this is
+  automatically done for you at the end of the installation/upgrade
+  process if you answer "yes" to the last question). You must have super user
+  privileges (i.e. be logged as root) to run it.
+
+     vmware-config-tools.pl
+
+  This will teach VMware Tools how to run on your current Linux kernel.
+  If you reboot your machine with a new kernel that VMware Tools
+  doesn't know yet (because, let's say, you have upgraded your Linux system),
+  you will have to run this configuration program again.
+  Then, VMware Tools will know this new kernel once and for all.
+______________________________________________________________________________
+
+UNINSTALLING
+
+  To remove an existing installation, run the program
+  "vmware-uninstall-tools.pl".
+  You must have super user privileges (i.e. be logged as root) to run it.
+
+     vmware-uninstall-tools.pl
+
+  The uninstall process will delete all installed files, and will backup the
+  files that have been modified since they have been installed.
+______________________________________________________________________________
+
+
+We hope you will enjoy this product,
+
+  --The VMware team.

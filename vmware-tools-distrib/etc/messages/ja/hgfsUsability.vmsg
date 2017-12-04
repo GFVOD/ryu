@@ -1,0 +1,19 @@
+##############################################################
+# Copyright (c) 2010-2015 VMware, Inc.  All rights reserved.
+##############################################################
+#
+# English translation catalog.
+#
+# Please follow a few guidelines when editing this file:
+#   . Try to maintain formatting (e.g., indentation and line breaks).
+#   . Avoid long lines by breaking them into multiple lines.
+#   . Catalogs *must* be in UTF-8.
+#   . Try to keep the file sorted by message id.
+#
+
+redirect.logout.message = "ホストとデータが共有できるよう、VMware Tools により設定が変更されました。これらの設定を適用するには、ログオフする必要があります。今すぐログオフするには「OK」をクリックしてください。後でログオフするには「キャンセル」をクリックしてください。"
+
+redirect.logout.title = "VMware Tools"
+
+sharedfolders.name = "VMware 共有フォルダ"
+

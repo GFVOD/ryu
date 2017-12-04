@@ -1,0 +1,6 @@
+UtsRelease 2.4.9-e.24summit
+ModVersion yes
+SMP yes
+PageOffset C0000000
+Comment Linux Red Hat Advanced Server version 2.1 summit kernel.
+UtsMachine i386

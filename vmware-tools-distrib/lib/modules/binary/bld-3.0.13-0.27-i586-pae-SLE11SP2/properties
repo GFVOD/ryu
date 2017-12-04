@@ -1,0 +1,6 @@
+UtsRelease 3.0.13-0.27-pae
+UtsMachine i386
+ModVersion yes
+SMP yes
+PageOffset C0000000
+Comment 3.0.13-0.27-pae SLE11 SP2

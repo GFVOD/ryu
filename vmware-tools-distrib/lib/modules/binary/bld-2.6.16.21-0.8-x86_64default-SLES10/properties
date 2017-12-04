@@ -1,0 +1,6 @@
+UtsRelease 2.6.16.21-0.8-default
+ModVersion yes
+SMP no
+PageOffset FFFF810000000000
+Comment SLES10, 2.6.16.21-0.8, amd64, default
+UtsMachine x86_64

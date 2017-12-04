@@ -1,0 +1,16 @@
+##############################################################
+# Copyright (c) 2011-2015 VMware, Inc.  All rights reserved.
+##############################################################
+#
+# English translation catalog.
+#
+# Please follow a few guidelines when editing this file:
+#   . Try to maintain formatting (e.g., indentation and line breaks).
+#   . Avoid long lines by breaking them into multiple lines.
+#   . Catalogs *must* be in UTF-8.
+#   . Try to keep the file sorted by message id.
+#   . ids use the form filename.object.messagetype
+
+auth.password.invalid = "'%1$s'에 대해 사용자 이름과 암호가 일치하지 않습니다."
+auth.password.valid = "'%1$s'에 대해 사용자 이름 및 암호가 유효한 것으로 확인되었습니다."
+auth.sspi.badid = "잘못되었거나 만료된 SSPI 챌린지 ID를 사용하여 인증하려고 합니다. %1$u"

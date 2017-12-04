@@ -1,0 +1,20 @@
+##############################################################
+# Copyright (c) 2010-2015 VMware, Inc.  All rights reserved.
+##############################################################
+#
+# English translation catalog.
+#
+# Please follow a few guidelines when editing this file:
+#   . Try to maintain formatting (e.g., indentation and line breaks).
+#   . Avoid long lines by breaking them into multiple lines.
+#   . Catalogs *must* be in UTF-8.
+#   . Try to keep the file sorted by message id.
+#
+
+displayDPI.logout.caption = "VMware Tools"
+
+displayDPI.logout.message = "VMware Tools ha modificado la configuración de tamaño de la interfaz de usuario. Debe cerrar sesión para aplicar estos cambios. Cierre todas las aplicaciones y presione Aceptar para cerrar sesión ahora o Cancelar para hacerlo más tarde."
+
+pmtimer.warning.caption = "Error de configuración del sistema operativo"
+
+pmtimer.warning.text = "El servicio de VMware Tools detectó un error de configuración del sistema operativo de esta máquina virtual. El archivo Boot.ini especifica el parámetro de arranque |22/usepmtimer|22, que degrada gravemente el rendimiento de la máquina virtual en determinadas cargas de trabajo.\n\nQuite el parámetro |22usepmtimer|22 del archivo Boot.ini y reinicie la máquina virtual para mejorar su rendimiento.\n\nConsulte el artículo de la base de conocimiento (KB) de VMware KB 1011714 para obtener más información."

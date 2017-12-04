@@ -1,0 +1,6 @@
+UtsRelease 2.6.5-7.145-SLRS
+ModVersion yes
+SMP no
+PageOffset C0000000
+Comment NLD9 SP1, 2.6.5-7.145, SLRS
+UtsMachine i386

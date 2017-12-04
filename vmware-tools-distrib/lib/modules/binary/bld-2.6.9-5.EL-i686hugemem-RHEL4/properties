@@ -1,0 +1,6 @@
+UtsRelease 2.6.9-5.ELhugemem
+ModVersion yes
+SMP yes
+PageOffset C0000000
+Comment RedHat Enterprise Linux 4.0 AS
+UtsMachine i386
