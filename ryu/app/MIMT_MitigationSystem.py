@@ -35,10 +35,10 @@ class arp(app_manager.RyuApp):
             if (self.mac_to_ipv4.has_key(self.mac_to_ipv4[dpid][mac_src])==False) :
                 if(self.ipv4_to_mac.has_key(self.ipv4_to_mac[dpid][ip_src])==False) :
                     self.mac_to_ipv4.setdefault(dpid, {})
-                    self.logger.info ("%s %s %s", dpid, mac_src, ip_src)
+                    self.logger.info("%s %s %s", dpid, mac_src, ip_src)
                     self.mac_to_ipv4[dpid][mac_src] = ip_src
                     self.ipv4_to_mac.setdefault(dpid, {})
-                    self.logger.info("%s %s %s", dpid, ip_src, mac_src)
+                    self.logger.info ("%s %s %s", dpid, ip_src, mac_src)
                     self.ipv4_to_mac[dpid][ip_src] = mac_src
             if pkt_arp.opcode == arp.ARP_REQUEST :
                 return
