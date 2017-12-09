@@ -15,8 +15,7 @@ from ryu.lib.packet import packet
 from ryu.lib.packet import ethernet
 from ryu.lib.packet import ipv4
 from ryu.lib.packet import arp
-from ryu.topology.tracker import Tracker
-from ryu.controller import pktin_filter
+
 #from ryu.topology.api import get_switch,get_link
 
 TOR_LAYER = 0
