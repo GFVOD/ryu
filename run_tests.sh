@@ -31,12 +31,12 @@ process_option() {
     -V|--virtual-env) always_venv=1; never_venv=0;;
     -N|--no-virtual-env) always_venv=0; never_venv=1;;
     -f|--force) force=1;;
-    -p|--pep8) just_pep8=1; never_venv=1; always_venv=0;;
     -P|--no-pep8) no_pep8=1;;
     -l|--pylint) just_pylint=1;;
     -i|--integrated) integrated=1;;
     -c|--coverage) coverage=1;;
     -v|--verbose) verbose=1;;
+    -p|--pep8) just_pep8=1; never_venv=1; always_vent=1;;
     -*) noseopts="$noseopts $1";;
     *) noseargs="$noseargs $1"
   esac
