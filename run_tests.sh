@@ -25,6 +25,7 @@ usage() {
   exit
 }
 
+
 process_option() {
   case "$1" in
     -h|--help) usage;;
