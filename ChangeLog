@@ -673,7 +673,7 @@ CHANGES
 * doc/ofproto\_v1\_2\_ref: Add description for Port Structures
 * doc/ofproto\_v1\_3\_ref: Add description for Port Structures
 * doc/ofproto\_v1\_4\_ref: Add description for Port Structures
-* doc/ofproto\_v1\_5\_ref: Add description for Port Structures and Controller Status Structure
+* doc/ofproto\_v1\_5\_ref: Add description for Port Structures and Controller Status  Structure
 * Examples contain invalid MAC addresses
 * ofproto\_v1\_0\_parser: Add \_\_getitem\_\_ method into OFPMatch
 * test\_parser\_v10: Add test case for \_\_getitem\_\_ of OFPMatch
