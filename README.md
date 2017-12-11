@@ -6,7 +6,10 @@
   <h3 align="center">Miles's Ryu</h3>
   <p align="center">
      This framework is just for my personal studying and record some achievements of my teamwork.
-     <br>
+      <br>
+      <a href="http://osrg.github.io/ryu/resources.html"><strong>Explore Ryu docs »</strong></a>
+      <br>
+      <br>
 
 What's Ryu
 ==========
@@ -51,6 +54,7 @@ Some functionalities of ryu requires extra packages:
 - Zebra protocol service (database) requires SQLAlchemy
 
 If you want to use the functionalities, please install requirements:
+    
     ```
     % pip install -r tools/optional-requires
     ```
