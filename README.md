@@ -1,13 +1,12 @@
 <p align="center">
   <a href="https://github.com/GFVOD/ryu">
-    <img src="http://osrg.github.io/ryu/css/images/LogoSet02.png" alt="" width=72 height=72>
+    <img src="http://osrg.github.io/ryu/css/images/LogoSet02.png" alt="" width=144 height=144>
   </a>
 
-  <h3 align="center">Ryu</h3>iles'a Ryu
-
-==========
-This framework is just for my personal studying and record some achievements of my teamwork.
-
+  <h3 align="center">Miles's Ryu</h3>
+  <p align="center">
+     This framework is just for my personal studying and record some achievements of my teamwork.
+     <br>
 
 What's Ryu
 ==========
@@ -25,21 +24,21 @@ is fully written in Python.
 
 Quick Start
 ===========
-Installing Ryu is quite easy::
-
+Installing Ryu is quite easy:
+   ```
    % pip install ryu
-
-If you prefer to install Ryu from the source code::
-
+   ```
+If you prefer to install Ryu from the source code:
+   ```
    % git clone git://github.com/osrg/ryu.git
    % cd ryu; pip install .
-
+   ```
 If you want to write your Ryu application, have a look at
-`Writing ryu application <http://ryu.readthedocs.io/en/latest/writing_ryu_app.html>`_ document.
-After writing your application, just type::
-
+[Writing ryu application](http://ryu.readthedocs.io/en/latest/writing_ryu_app.html) document.
+After writing your application, just type:
+   ```
    % ryu-manager yourapp.py
-
+   ```
 
 Optional Requirements
 =====================
@@ -51,10 +50,10 @@ Some functionalities of ryu requires extra packages:
 - BGP speaker (SSH console) requires paramiko
 - Zebra protocol service (database) requires SQLAlchemy
 
-If you want to use the functionalities, please install requirements::
-
+If you want to use the functionalities, please install requirements:
+    ```
     % pip install -r tools/optional-requires
-
+    ```
 Please refer to tools/optional-requires for details.
 
 
@@ -63,18 +62,16 @@ Prerequisites
 If you got some error messages at installation step, please confirm
 dependencies for building required Python packages.
 
-On Ubuntu(16.04 LTS or later)::
-
+On Ubuntu(16.04 LTS or later):
+  ```
   % apt install gcc python-dev libffi-dev libssl-dev libxml2-dev libxslt1-dev zlib1g-dev
-
+  ```
 
 Support
 =======
-Ryu Official site is `<http://osrg.github.io/ryu/>`_.
-
+Ryu Official site is <http://osrg.github.io/ryu/>
 If you have any
 questions, suggestions, and patches, the mailing list is available at
-`ryu-devel ML
-<https://lists.sourceforge.net/lists/listinfo/ryu-devel>`_.
-`The ML archive at Gmane <http://dir.gmane.org/gmane.network.ryu.devel>`_
+[ryu-devel ML](https://lists.sourceforge.net/lists/listinfo/ryu-devel).
+[The ML archive at Gmane](http://dir.gmane.org/gmane.network.ryu.devel)
 is also available.
