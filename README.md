@@ -55,9 +55,9 @@ Some functionalities of ryu requires extra packages:
 
 If you want to use the functionalities, please install requirements:
     
-    ```
+    
     % pip install -r tools/optional-requires
-    ```
+    
 Please refer to tools/optional-requires for details.
 
 
