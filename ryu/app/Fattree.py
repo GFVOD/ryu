@@ -132,39 +132,3 @@ def pingTest(net):
     net.pingAll()
 
 
-def createTopo(pod, density, ip="127.0.0.1", port=6633, bw_c2a=0.2, bw_a2e=0.1, bw_h2a=0.05):
-    logging.debug("LV1 Create Fattree")
-    topo = Fattree(pod, density)
-    topo.createTopo()
-    topo.createLink(bw_c2a=bw_c2a, bw_a2e=bw_a2e, bw_h2a=bw_h2a)
-
-    logging.debug("LV1 Start Mininet")
-    CONTROLLER_IP = ip
-    CONTROLLER_PORT = port
-    net = Mininet(topo=topo, link=TCLink, controller=None, autoSetMacs=True,
-                  autoStaticArp=True)
-    net.addController(
-        'controller', controller=RemoteController,
-        ip=CONTROLLER_IP, port=CONTROLLER_PORT)
-    net.start()
-
-    '''
-        Set OVS's protocol as OF13
-    '''
-    topo.set_ovs_protocol_13()
-
-    logger.debug("LV1 dumpNode")
-
-    #dumpNodeConnections(net.hosts)
-    #pingTest(net)
-    #iperfTest(net, topo)
-
-    CLI(net)
-    net.stop()
-
-if __name__ == '__main__':
-    setLogLevel('info')
-    if os.getuid() != 0:
-        logger.debug("You are NOT root")
-    elif os.getuid() == 0:
-        createTopo(8, 4)
