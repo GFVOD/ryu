@@ -7,10 +7,6 @@ from mininet.log import setLogLevel
 
 
 class CustomTopo(Topo):
-    "Simple Data Center Topology"
-
-    "linkopts - (1:c1, 2:aggregation, 3: edge) parameters"
-    "fanout - number of child switch per parent switch"
 
     def __init__(self, linkopts1, linkopts2, linkopts3, fanout=2, **opts):
         # Initialize topology and default options
