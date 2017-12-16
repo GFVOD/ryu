@@ -33,7 +33,7 @@ Installing Ryu is quite easy:
    ```
 If you prefer to install Ryu from the source code:
    ```
-   % git clone git://github.com/osrg/ryu.git
+   % git clone git://github.com/GFVOD/ryu.git
    % cd ryu; pip install .
    ```
 If you want to write your Ryu application, have a look at
