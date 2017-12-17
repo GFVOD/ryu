@@ -68,35 +68,7 @@ class Fattree(Topo):
                 PREFIX = "h"
             self.HostList.append(self.addHost(PREFIX + str(x)))
 
-    """
-    Add Link
-    """
-    def createLink(self, bw_c2a=0.2, bw_a2e=0.1, bw_h2a=0.5):
-        logger.debug("Add link Core to Agg.")
-        end = self.pod/2
-        for x in xrange(0, self.iAggLayerSwitch, end):
-            for i in xrange(0, end):
-                for j in xrange(0, end):
-                    self.addLink(
-                        self.CoreSwitchList[i*end+j],
-                        self.AggSwitchList[x+i],
-                        bw=bw_c2a)
 
-        logger.debug("Add link Agg to Edge.")
-        for x in xrange(0, self.iAggLayerSwitch, end):
-            for i in xrange(0, end):
-                for j in xrange(0, end):
-                    self.addLink(
-                        self.AggSwitchList[x+i], self.EdgeSwitchList[x+j],
-                        bw=bw_a2e)
-
-        logger.debug("Add link Edge to Host.")
-        for x in xrange(0, self.iEdgeLayerSwitch):
-            for i in xrange(0, self.density):
-                self.addLink(
-                    self.EdgeSwitchList[x],
-                    self.HostList[self.density * x + i],
-                    bw=bw_h2a)
 
     def set_ovs_protocol_13(self,):
         self._set_ovs_protocol_13(self.CoreSwitchList)
