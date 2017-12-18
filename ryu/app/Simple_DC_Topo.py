@@ -29,19 +29,6 @@ class CustomTopo(Topo):
 topos = {'custom': (lambda: CustomTopo())}
 
 
-def simpleTest():
-    "Create and test a simple network"
-    linkopts1 = dict(bw=10, delay='3ms', use_htb=True)
-    linkopts2 = dict(bw=8, delay='4ms', loss=1, max_queue_size=900, )
-    linkopts3 = dict(bw=6, delay='5ms', loss=1, max_queue_size=800)
-    topo = CustomTopo(linkopts1, linkopts2, linkopts3, fanout=2)
-    net = Mininet(topo, host=CPULimitedHost, link=TCLink)
-    net.start()
-    print "Dumping host connections"
-    dumpNodeConnections(net.hosts)
-    print "Testing network connectivity"
-    net.pingAll()
-    net.stop()
 
 
 if __name__ == '__main__':
