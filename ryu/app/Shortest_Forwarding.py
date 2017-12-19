@@ -7,7 +7,7 @@ from ryu.lib.packet import packet
 from ryu.lib.packet import ethernet
 from ryu.topology import event, switches
 from ryu.topology.api import get_switch, get_link
-import networkx as nx
+import network as nx
 
 
 class ExampleShortestForwarding(app_manager.RyuApp):
@@ -20,6 +20,14 @@ class ExampleShortestForwarding(app_manager.RyuApp):
         self.network = nx.DiGraph()
         self.topology_api_app = self
         self.paths = {}
+        self.monitor = kwargs["monitor"]
+        self.tracker = kwargs["tracker"]
+
+        self.UPT = {}  # UPT=  {TOR:[[a1, a2],[c11, c12], [c21, c22]]}
+        self.TOR_Table = {}  # {tor_dpid,in_port):host_ip}
+        self.AGGREGATION_Table = {}
+        # {(agg_dpid,agg_port):(tor_dpid,tor_port)}
+        self.CORE_Table = {}  # {(core_dpid,core_port):(agg_dpid,agg_port)}
 
     @set_ev_cls(ofp_event.EventOFPSwitchFeatures, CONFIG_DISPATCHER)
     def switch_features_handler(self, ev):
