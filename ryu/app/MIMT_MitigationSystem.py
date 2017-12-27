@@ -42,19 +42,19 @@ class arp(app_manager.RyuApp):
         eth = pkt.get_protocol(ethernet.ethernet)
         dst = eth.dst
         src = eth.src
-        dpid = datapath.id
+        dpid = datapath.id 
 
         in_port = msg.match['in_port']
         self.mac_to_port.setdefault(dpid, {})
-        self.logger.info ("packet in %s %s %s %s", dpid, src, dst, in_port)
+        self.logger.info 
+
+("packet in %s %s %s %s", dpid, src, dst, in_port)
         self.mac_to_port[dpid][src] = in_port
         if dst in self.mac_to_port[dpid]:
             out_port = self.mac_to_port[dpid][dst]
         else:
             out_port = ofproto.OFPP_FLOOD
         actions = [parser.OFPActionOutput(out_port)]
-        if out_port != ofproto.OFPP_FLOOD:
-            match = parser.OFPMatch(in_port=in_port, eth_dst=dst)
         data = None
         if msg.buffer_id == ofproto.OFPCML_NO_BUFFER:
             data = msg.data
@@ -68,17 +68,25 @@ class arp(app_manager.RyuApp):
             if (self.mac_to_ipv4.has_key(self.mac_to_ipv4[dpid][mac_src])==False) :
                 if(self.ipv4_to_mac.has_key(self.ipv4_to_mac[dpid][ip_src])==False) :
                     self.mac_to_ipv4.setdefault(dpid, {})
-                    self.logger.info ("%s %s %s", dpid, mac_src, ip_src)
+                    self.logger.info 
+
+("%s %s %s", dpid, mac_src, ip_src)
                     self.mac_to_ipv4[dpid][mac_src] = ip_src
                     self.ipv4_to_mac.setdefault(dpid, {})
-                    self.logger.info ("%s %s %s", dpid, ip_src, mac_src)
+                    self.logger.info 
+
+("%s %s %s", dpid, ip_src, mac_src)
                     self.ipv4_to_mac[dpid][ip_src] = mac_src
             if pkt_arp.opcode == arp.ARP_REQUEST :
+                if out_port != ofproto.OFPP_FLOOD:
+                    match = parser.OFPMatch(in_port=in_port,eth_dst=dst,eth_src=src,arp_spa=ip_src)
+                    self.add_flow(datapath, 1, match, actions)
                 datapath.send_msg(out)
             elif pkt_arp.opcode == arp.ARP_REPLY :
                 if(self.mac_to_ipv4[dpid][mac_src]==ip_src) :
                     match = parser.OFPMatch(in_port=in_port,eth_dst=dst,eth_src=src,arp_spa=ip_src)
                     self.add_flow(datapath, 1, match, actions)
+                    datapath.send_msg(out)
                 else :
                     return
         else :
